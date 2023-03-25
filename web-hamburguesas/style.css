@@ -179,8 +179,8 @@ opacity: 1;
   width: 550px;
 }
 
-.product {
-  background-color: #0d0d0d0d;
+.products {
+  background-color: #1ddbc20d;
 }
 
 .tabs {
@@ -210,7 +210,7 @@ transition: background ease 0.2s;
 
 }
 
-.tabs input [type="radio"] {
+.tabs input[type="radio"] {
   display: none;
 }
 
