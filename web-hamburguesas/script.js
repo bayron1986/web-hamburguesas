@@ -1,4 +1,4 @@
-var swiper = new Swiper(".myswiper-1", {
+var swiper = new Swiper(".mySwiper-1", {
     slidesPerView:1,
     spaceBetween: 30,
     loop: true,
@@ -12,17 +12,17 @@ var swiper = new Swiper(".myswiper-1", {
     }
 });
 
-var swiper = new Swiper(".myswiper-2", {
+var swiper = new Swiper(".mySwiper-2", {
     slidesPerView:3,
     spaceBetween: 20,
     loop: true,
-    loopFillGroupWithBlank:true,
+    loopFillGroupWithBlank: true,
     navigation: {
         nextEl:".swiper-button-next",
         prevEl:".swiper-button-prev",
     },
     breakpoints: {
-        0: {
+        0:{
             slidesPerView:1,
         },
         520: {
